@@ -36,5 +36,5 @@ export CGO_ENABLED=0
 export GOOS=linux
 export GOARCH=amd64
 
-go build -a -ldflags '-extldflags "-static"' -o output_binary_nameyour_main_package.go
+go build -a -ldflags '-extldflags "-static"' -o output_binary_name your_main_package.go
 ```
